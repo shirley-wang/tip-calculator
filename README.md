@@ -24,7 +24,6 @@ The following **additional** features are implemented:
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
-![](http://i.imgur.com/NeBRjYG.gifv)
 
 
 GIF created with [GIPHY]
