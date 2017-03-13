@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		EDF80C751E7627AC00EC5FD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF80C741E7627AC00EC5FD7 /* AppDelegate.swift */; };
 		EDF80C771E7627AC00EC5FD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF80C761E7627AC00EC5FD7 /* ViewController.swift */; };
-		EDF80C7A1E7627AC00EC5FD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF80C781E7627AC00EC5FD7 /* Main.storyboard */; };
 		EDF80C7C1E7627AC00EC5FD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF80C7B1E7627AC00EC5FD7 /* Assets.xcassets */; };
 		EDF80C7F1E7627AC00EC5FD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF80C7D1E7627AC00EC5FD7 /* LaunchScreen.storyboard */; };
 		EDF80C8A1E7627AC00EC5FD7 /* tipsyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF80C891E7627AC00EC5FD7 /* tipsyTests.swift */; };
 		EDF80C951E7627AC00EC5FD7 /* tipsyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF80C941E7627AC00EC5FD7 /* tipsyUITests.swift */; };
+		EDF80CA91E765C5B00EC5FD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF80CA81E765C5B00EC5FD7 /* Main.storyboard */; };
+		EDF80CAB1E765FB600EC5FD7 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF80CAA1E765FB600EC5FD7 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,6 @@
 		EDF80C711E7627AC00EC5FD7 /* tipsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF80C741E7627AC00EC5FD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDF80C761E7627AC00EC5FD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EDF80C791E7627AC00EC5FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EDF80C7B1E7627AC00EC5FD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDF80C7E1E7627AC00EC5FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDF80C801E7627AC00EC5FD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		EDF80C901E7627AC00EC5FD7 /* tipsyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF80C941E7627AC00EC5FD7 /* tipsyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsyUITests.swift; sourceTree = "<group>"; };
 		EDF80C961E7627AC00EC5FD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF80CA81E765C5B00EC5FD7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EDF80CAA1E765FB600EC5FD7 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +99,10 @@
 		EDF80C731E7627AC00EC5FD7 /* tipsy */ = {
 			isa = PBXGroup;
 			children = (
+				EDF80CA81E765C5B00EC5FD7 /* Main.storyboard */,
 				EDF80C741E7627AC00EC5FD7 /* AppDelegate.swift */,
 				EDF80C761E7627AC00EC5FD7 /* ViewController.swift */,
-				EDF80C781E7627AC00EC5FD7 /* Main.storyboard */,
+				EDF80CAA1E765FB600EC5FD7 /* SettingsViewController.swift */,
 				EDF80C7B1E7627AC00EC5FD7 /* Assets.xcassets */,
 				EDF80C7D1E7627AC00EC5FD7 /* LaunchScreen.storyboard */,
 				EDF80C801E7627AC00EC5FD7 /* Info.plist */,
@@ -232,9 +235,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDF80CA91E765C5B00EC5FD7 /* Main.storyboard in Resources */,
 				EDF80C7F1E7627AC00EC5FD7 /* LaunchScreen.storyboard in Resources */,
 				EDF80C7C1E7627AC00EC5FD7 /* Assets.xcassets in Resources */,
-				EDF80C7A1E7627AC00EC5FD7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +264,7 @@
 			files = (
 				EDF80C771E7627AC00EC5FD7 /* ViewController.swift in Sources */,
 				EDF80C751E7627AC00EC5FD7 /* AppDelegate.swift in Sources */,
+				EDF80CAB1E765FB600EC5FD7 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +300,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EDF80C781E7627AC00EC5FD7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EDF80C791E7627AC00EC5FD7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EDF80C7D1E7627AC00EC5FD7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -503,6 +499,7 @@
 				EDF80C9B1E7627AC00EC5FD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDF80C9C1E7627AC00EC5FD7 /* Build configuration list for PBXNativeTarget "tipsyTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +508,7 @@
 				EDF80C9E1E7627AC00EC5FD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDF80C9F1E7627AC00EC5FD7 /* Build configuration list for PBXNativeTarget "tipsyUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +517,7 @@
 				EDF80CA11E7627AC00EC5FD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
