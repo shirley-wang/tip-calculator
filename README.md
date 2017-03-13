@@ -25,6 +25,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+![](http://i.imgur.com/OUkLi.gif)
 
 GIF created with [GIPHY]
 
