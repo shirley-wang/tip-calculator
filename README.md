@@ -25,7 +25,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![](http://i.imgur.com/OUkLi.gif)
+![](https://github.com/shirley-wang/tip-calculator/blob/master/calc1.gif?raw=true)
 
 GIF created with [GIPHY]
 
